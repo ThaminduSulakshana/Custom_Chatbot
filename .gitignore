@@ -1,0 +1,13 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory
+env/
+
+# Ignore the log files
+*.log
+
+db.pickle
+db2.pkl
+llm.pickle
+predictor.pickle
