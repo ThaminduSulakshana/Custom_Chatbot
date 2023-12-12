@@ -3,6 +3,7 @@
 
 # Ignore the virtual environment directory
 env/
+data/
 
 # Ignore the log files
 *.log
