@@ -8,5 +8,18 @@
 <body>
     <h1>Query: {{ query }}</h1>
     <p>Explanation: {{ explanation }}</p>
+
+
+    <h2>Queries and Explanations</h2>
+    {% for item in queries %}
+        <h1>Query: {{ item['query'] }}</h1>
+        <p>Explanation: {{ item['explanation'] }}</p>
+    {% endfor %}
+    
 </body>
 </html>
+
+
+<label for="query">Enter your query:</label>
+        <input type="text" id="query" name="query" required placeholder="Enter your query">
+        <button type="submit">Get Explanation</button>

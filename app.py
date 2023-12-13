@@ -25,7 +25,7 @@ def get_explanation():
     # Display the Explanation from the first result
     explanation = docs[0].page_content
     
-    return render_template('result.html', query=query, explanation=explanation)
+    return render_template('index.html', query=query, explanation=explanation)
 
 if __name__ == '__main__':
     app.run(debug=True)
