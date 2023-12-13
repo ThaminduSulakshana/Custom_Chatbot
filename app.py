@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Load the db object from the pickle file
 with open('model/db.pickle', 'rb') as db_pickle:
     db = pickle.load(db_pickle)
-
+ 
 # Load the llm model from the pickle file
 with open('model/llm.pickle', 'rb') as llm_pickle:
     llm = pickle.load(llm_pickle)
